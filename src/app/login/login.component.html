@@ -1,0 +1,56 @@
+
+
+  <div class="container">
+    <body>
+      <h1>Log In</h1>
+      <div class="mb-3">
+        <h6>please unter your username and passwords!!</h6>
+      </div>
+
+      <div class="mb-3 form-check">
+        <div class="mb-3">
+          <div class="row g-3 align-items">
+            <div class="col-auto"></div>
+            <div class="input-icons">
+              <i class="fa fa-user icon"></i>
+              <input
+                #username
+                type="username"
+                id="username"
+                class="input-field"
+                aria-describedby="usernameHelpInline"
+                placeholder="Username"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-3 form-check">
+        <div class="mb-3">
+          <div class="row g-3 align-items">
+            <div class="col-auto"></div>
+            <div class="input-icons">
+              <i class="fa fa-key icon"></i>
+              <input
+                #password
+                type="password"
+                id="password"
+                class="input-field"
+                placeholder="Password"
+                aria-describedby="passwordHelpInline"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-offset-2 col-sm-10">
+        <a routerLink="chartdate">
+            <button type="submit" class="btn btn-success fa-pull-left" (click)="submitData(username.value,password.value)">
+                Log In
+            </button>
+        </a>
+      </div>
+    </body>
+  </div>

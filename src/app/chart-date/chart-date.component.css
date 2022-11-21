@@ -1,0 +1,10 @@
+.all{
+    border: 5px solid #FFFF00;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px ;
+    padding-right: 30px;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}

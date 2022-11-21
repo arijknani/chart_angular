@@ -1,0 +1,26 @@
+
+<div  id="mychart" style="width: 800px;height:600px" >
+    <h5>Vertical</h5>
+    <p-chart type="doughnut" 
+    [data]="data" 
+    [style]="{'width': '40%'}"></p-chart>
+
+
+    Start:
+    <div class="field col-12 md:col-4">
+    <label for="buttonbar">Button Bar</label>
+    <p-calendar 
+    [(ngModel)]="dateValue" 
+    ></p-calendar>
+    
+        </div>
+End: <input id="end" type="date" >
+<br>
+<button type="button"  (click)="filterDate($event)">Show Data</button>
+</div>
+
+
+
+
+
+

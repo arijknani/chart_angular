@@ -1,0 +1,29 @@
+.all{
+    border: 5px solid #FFFF00;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px ;
+    padding-right: 30px;
+    width: 650px;
+    height: 800px;
+    text-align: center;
+}
+
+.date{
+    padding: 30px;
+}
+
+#from{
+    font-weight: bold;
+}
+#to{
+    font-weight: bold
+}
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    padding-right: 5px;
+    padding-left: 40px;
+
+    
+}

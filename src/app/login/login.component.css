@@ -1,0 +1,32 @@
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 50%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 15px;
+    color:green;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    margin-top: 190px;
+    margin-bottom: 120;
+    margin-left: 50;
+    margin-right: 300;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #9C9C9C;
+
+  }
+
